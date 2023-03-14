@@ -1,15 +1,8 @@
 
-import { Component } from "react";
-import { fetchPictures } from "services/gallaryAPI";
 import { GlobalStyle } from "./GlobalStyle";
 
 import { Layout } from "./Layout/Layout";
 
-import { ImageGallery } from "./ImageGallery/ImageGallery";
-import { Modal } from "./Modal/Modal";
-import { Searchbar } from "./Searchbar/Searchbar";
-import { Loader } from './Loader/Loader';
-import { Button } from './Button/Button';
 
 export class App extends Component {
   state = {
