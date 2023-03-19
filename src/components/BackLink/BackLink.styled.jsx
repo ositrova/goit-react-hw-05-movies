@@ -5,6 +5,7 @@ export const StyledLink = styled(Link)`
   display: inline-flex;
   box-shadow: 3px 2px 2px #727171;
   width: 150px;
+  border-radius: 4px;
   justify-content: space-evenly;
   align-items: center;
   gap: 4px;

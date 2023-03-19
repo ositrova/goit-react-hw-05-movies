@@ -9,7 +9,7 @@ export async function fetchTrendingMovies() {
     language: 'en-US',
   };
 
-  const response = await axios.get('/trending/all/day', { params });
+  const response = await axios.get('/trending/movie/day', { params });
   const data = response.data;
 
   return data;

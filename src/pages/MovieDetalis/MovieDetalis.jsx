@@ -39,7 +39,7 @@ const MovieDetails = () => {
 
   const poster = poster_path => {
     if (poster_path === null) {
-      return 'https://via.placeholder.com/300sx450.jpg';
+      return 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGeCc8t0O8PhLI5qowdE8upNe2aI9gm1Vvaw&usqp=CAU';
     }
     return `https://image.tmdb.org/t/p/w300${poster_path}`;
   };

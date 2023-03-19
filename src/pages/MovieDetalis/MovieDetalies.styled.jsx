@@ -8,11 +8,9 @@ export const Link = styled(NavLink)`
   text-decoration: none;
   box-shadow: 3px 2px 2px #727171;
   color: black;
-  margin-bottom: 16px;
-  
-  border: 1px solid #727171;
+  margin-bottom: 20px;
+  padding: 8px 5px;
   border-radius: 4px;
-  padding: 4px 6px;
   transition: color 250ms linear, border-color 250ms linear;
   &:hover {
     color: #68aaf0;
